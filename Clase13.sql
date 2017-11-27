@@ -66,7 +66,7 @@ SELECT inventory_id
 FROM inventory
 WHERE film_id = 999;
 
--- Inventory_id = 4569, 4570, 4571, 4572, 4573
+-- Inventory_id = 4569, 4570, 4571, 4572, 4573 
 
 DELETE FROM rental
 WHERE inventory_id IN (4569, 4570, 4571, 4572, 4573);
